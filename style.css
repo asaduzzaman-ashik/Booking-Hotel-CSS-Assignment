@@ -472,10 +472,15 @@
 
     .header-section{
         padding: 0;
+        margin-top: 0;
+        width: 480px;
 
         .nav-var{
-            width: 480px;
+            width: 510px;
             padding-top: 1.5rem;
+            border-radius: 0;
+            margin-top: 0;
+            border: none;
 
             .none{
                 display: none;
@@ -494,7 +499,7 @@
             width: 480px;
         }
         .indicator{
-            left: 34%;
+            left: 40%;
         }
     }
 
