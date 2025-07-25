@@ -466,3 +466,145 @@
         }
     }
 }
+
+
+@media (max-width:480px) {
+
+    .header-section{
+        padding: 0;
+
+        .nav-var{
+            width: 480px;
+            padding-top: 1.5rem;
+
+            .none{
+                display: none;
+            }
+        }
+    }
+
+    /* hero section*/
+
+    .hero-section{
+        width: 480px;
+
+        .hero-content{
+            left: 1rem;
+            font-size: 1.5rem;
+            width: 480px;
+        }
+        .indicator{
+            left: 34%;
+        }
+    }
+
+    /*booking section*/
+
+    .booking-section{
+        margin: 3rem 0;
+        .booking-box{
+            margin: 0;
+        }
+        .booking-content-2{
+           
+            flex-direction: column;
+
+            .date-var{
+                width:400px;
+                height: 150px;
+            }
+        }
+    }
+
+    /*landing page section*/
+
+    .landing-page-section{
+        padding: 2rem 0;
+        margin: 3rem 0;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        
+        .landing-var{
+            padding: 5px;
+            & p{
+                font-size: 1.5rem;
+                top: 60%;
+                left: 10%;
+            }
+            .dining-room{
+                left: 30%;
+            }
+        }
+    }
+    
+    /*offer section start*/
+
+    .offer-section{
+        padding: 2rem 0;
+       
+        .offer-content-var{
+            padding: 0;
+            .offer-content-1{
+
+                & h1{
+                    font-size: 2rem;
+                }
+            }
+
+            .offer-content-2{
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                padding-top: 4rem;
+            }
+        }
+
+        .offer-crad-var{
+            flex-direction: column;
+            padding: 1rem 0;
+        }
+    }
+
+    /* Footer Section start */
+
+    .footer-section{
+            padding: 1rem 0;
+            width: 100%;
+
+        .footer-var{
+            flex-direction: column;
+            padding: 0;
+
+            .footer-left-part{
+                width: 480px;
+                text-align: left;
+                padding: 1.5rem 4rem;
+                padding-bottom: 2.5rem;
+
+                & h1{
+                    font-size: 1.5rem;
+                }
+
+                .input-style{
+
+                    & input{
+                        padding: .7rem 1rem;
+                    }
+                }
+            }
+            .footer-right-part{
+
+                .footer-info{
+                    align-items: flex-start;
+                    padding: 2rem 1rem;
+                    gap: 2rem;
+                }
+            }
+        }
+
+        .copyrighy{
+            width: 100%;
+            padding-top: 1.5rem;
+        }
+    }
+}
