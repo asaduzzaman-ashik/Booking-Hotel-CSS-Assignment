@@ -557,10 +557,18 @@
             }
 
             .offer-content-2{
+                /* width: 200px; */
                 display: flex;
                 flex-direction: column;
                 justify-content: flex-start;
+                padding: 0;
+                margin-right: 1rem;
                 padding-top: 4rem;
+
+                & a{
+                    white-space: nowrap;
+                }
+
             }
         }
 
